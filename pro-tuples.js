@@ -27,17 +27,17 @@ function solution(s) {
             
             let check = false;    
             for(let k = 0; k < answer.length; k++){
-                if(arr[i][j] === answer[k]){
+                if(Number(arr[i][j]) === Number(answer[k])){
                     check =true;
                 }
             }
 
             if(!check){
-                answer.push(Number(pararr[i][j]))
+                answer.push(Number(arr[i][j]))
             }
         }
     }
-
+    console.log(answer);
     
     return answer;
 }
