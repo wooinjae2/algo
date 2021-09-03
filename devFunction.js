@@ -30,7 +30,7 @@ const solution = (progresses, speeds) => {
           break;
       }
     }
-    console.log(answer)
+
     return answer;
 }
 
